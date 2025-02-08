@@ -1,7 +1,9 @@
 :root{
 --color-black:#000000;
---color-green: rgb(85, 231, 65);
+--color-blue: rgb(135, 198, 235);
+--color-aquamarine: #7fffd4;
 }
+
 *,
 *::after, 
 *::before{
@@ -23,8 +25,10 @@ a:active{
 .navigation-bar {
     display: flex;
     padding: 5px;
-    background-color: var(--color-green);
+    background-color: var(--color-blue);
 }
+
+
 
 .brand-link{
     display: flex;
@@ -38,7 +42,7 @@ a:active{
  height: auto;
  object-fit: cover; 
  aspect-ratio: 1;
-    }
+     }
     
     span {
         font-size: 25px;
@@ -48,6 +52,10 @@ a:active{
 
 .info-section {
     margin: 10px 40px;
+
+    background-color: var(--color-aquamarine); 
+    align-items: center;
+    justify-content: center;
 
     h1 {
         margin: 0 0 16px;
@@ -80,3 +88,4 @@ margin: 0;
     display: flex;
     gap: 16px;
 }
+
